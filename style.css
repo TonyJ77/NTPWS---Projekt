@@ -1,0 +1,115 @@
+body{
+	margin:0 auto;
+	max-width:80%;
+	height:100%;
+	
+	
+}
+
+header nav{
+	display: flex;
+    width: 100%;
+    height: auto;
+}
+
+header nav li{
+	background-color: #001f3f;
+	width:20%;
+    position: relative;
+    float:left;
+	list-style-type:none;
+}
+
+
+
+
+header nav li a{
+	background-color: #001f3f;
+    color: #FF851B;
+    padding:20px 0;
+	width:100%;
+    border: none;
+    cursor: pointer;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:Georgia;
+}
+
+header nav li a:hover{
+	color:#FFFFFF;
+}
+
+header nav li:hover{
+	opacity:0.85;
+}
+
+.header-image{
+	display: flex;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+
+#slikaKodiranje{
+	display:flex;
+	width:50%;
+	height:auto;
+	float:left;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border:1px solid blue;
+  border-radius:5px;
+}
+figcaption {
+  margin-top: 1em;
+}
+
+.container p {
+	border:1px solid black;
+	display: -webkit-inline-box;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: #001f3f;
+  justify-content: center;
+}
+
+footer p{
+	color: #FF851B;
+}
+
+
+
+.news-div {
+  display: flex;
+  align-items: center;
+  margin: 2em;
+  border: 0.5px solid grey;
+}
+.news-div h2 {
+  padding-left: 0.5em;
+}
+.news-div img {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  max-width: 100px;
+}
+.news-div a {
+  color: black;
+  text-decoration: none;
+  display:block;
+}
