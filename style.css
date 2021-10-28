@@ -1,3 +1,4 @@
+/* zadaci 1-5  */ 
 body{
 	margin:0 auto;
 	max-width:80%;
@@ -21,7 +22,10 @@ header nav li{
 }
 
 
-
+#current{
+	border: 3px solid green; 
+	border-radius: 5px;
+}
 
 header nav li a{
 	background-color: #001f3f;
@@ -113,3 +117,161 @@ footer p{
   text-decoration: none;
   display:block;
 }
+
+
+/* zadaci 6-9  */ 
+
+#newsGallery{
+	 display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+}
+
+.pic img{
+	max-width: 100%;
+}
+
+.pic {
+	border:1px solid black;
+	padding: 10px;
+  float: left;
+    width: 16%;
+}
+
+.pic figcaption{
+	text-align:center;
+}
+
+#newsButton{
+	padding: 10px;
+	align-items:center;
+	background-color: #001f3f;
+	max-width: fit-content;
+    color: #FF851B;
+    border-radius: 5px;
+	color: #FF851B;
+	display:block;
+	margin-bottom:10px;
+	text-decoration:none;
+	margin:10px auto;
+}
+
+#newsButton:hover{
+	color:#FFFFFF;
+	opacity:0.85;
+}
+
+
+
+
+#kontaktForma{
+	
+	
+}
+
+#kontaktForma iframe{
+	margin:0 auto;
+	display : block;
+	margin-bottom:20px;
+}
+#kontaktForma form{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+   padding-bottom: 30px;
+}
+
+#kontaktForma label{
+	margin:10px;
+}
+
+input[type=submit]{
+	padding: 10px;
+	align-items:center;
+	background-color: #001f3f;
+	max-width: fit-content;
+    color: #FF851B;
+    border-radius: 5px;
+	color: #FF851B;
+	display:block;
+	margin-bottom:10px;
+	text-decoration:none;
+	margin:10px auto;
+}
+
+input[type=submit]:hover{
+	color:#FFFFFF;
+	opacity:0.85;
+	cursor:pointer;
+}
+
+.galleryFigure
+{
+  margin: 1em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 200px;
+}
+
+.galleryFigure:hover
+{
+  border: 1px solid #777;
+}
+
+.galleryFigure img
+{
+  width: 100%;
+  height: auto;
+}
+
+#kingOfFootball{
+	margin-bottom:120px;
+}
+
+video
+{
+  margin: 0 0.5em 0 1em;
+  float: left;
+  width: 320px;
+  height: auto;
+}
+
+h1,h2{
+	font-weight:bold;
+}
+
+h2{
+	color: #426ff5;
+}
+
+
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+	
+	#newsGallery figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#newsGallery figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+	body{
+		background-color:yellow;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	body{
+		background-color:white;
+	}
+	}
